@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    
+}
+
+nav{ 
+display: flex;
+justify-content: space-between;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 12px;
+}
+
+nav a {
+   color: black; 
+   font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.divPai{
+    display: flex;
+    justify-content: space-between;
+}
+.divFilho1{
+    background-color: rgb(255, 0, 0);
+    height: 400px;
+    width: 33.33%;
+    background-image: url(img/turma\ da\ mônica.jfif);
+    background-size: cover;
+}
+.divFilho2{
+    background-color: rgb(255, 145, 0);
+    height: 400px;
+    width: 33.33%;
+    background-image: url(img/turma\ da\ mônica.jfif);
+    background-size: cover;
+}
+.divFilho3{
+    background-color: rgb(245, 220, 1);
+    height: 400px;
+    width: 33.33%;
+    background-image: url(img/turma\ da\ mônica.jfif);
+    background-size: cover;
+}
+.divPai2{
+    display: flex;
+    justify-content: space-between;
+}
+.divFilho4{
+height: 400px;
+width: 33.33%;
+background-image: url(img/monca.png);
+background-size: cover;
+}
+.divFilho5{
+    height: 400px;
+width: 33.33%;
+background-image: url(img/cebolinha.jfif);
+background-size: cover;
+}
+.divFilho6{
+    height: 400px;
+width: 33.33%;
+background-image: url(img/cascão.jfif);
+background-size: cover;
+}
+
+.divPai3{ display: flex;
+    justify-content: space-between;}
+
+    .divFilho7{
+        height: 400px;
+        width: 33.33%;
+        background-image: url(img/turma\ jovem.png);
+        background-size: cover;}
+
+        .divFilho8{
+            height: 400px;
+            width: 33.33%;
+            background-image: url(img/turma\ jovem.png);
+            background-size: cover;}
+        
+            .divFilho9{
+                height: 400px;
+                width: 33.33%;
+                background-image: url(img/turma\ jovem.png);
+                background-size: cover;}
+        
+footer{
+    background-color: rgb(255, 0, 0);
+    height: 300px;
+    text-align: center;
+}
+
+.divPai4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divFilho10{
+    height: 35;
+    width: 33.33%;
+    background-image: url(img/telefone.jfif);
+    background-size: cover;
+}
+
+.divFooter {
+    display: flex;
+   justify-content:space-between;}
